@@ -8,6 +8,7 @@ public class CreditCardTest {
 
     @Test
     void itAllowsToAssignCreditLimit(){
+
         CreditCard card = new CreditCard("1234-56789");
 
         card.assignCreditLimit(BigDecimal.valueOf(1000));
